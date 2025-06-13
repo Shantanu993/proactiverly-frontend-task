@@ -1,0 +1,369 @@
+.wellness-landing-wrapper {
+  padding-top: 100px;
+  max-width: 1500px;
+  margin: 0px auto;
+  min-height: 80vh;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Desktop Styles */
+.desktop-experience {
+  display: block;
+}
+
+.gallery-columns-container {
+  position: absolute;
+  inset: 0;
+  display: flex;
+}
+
+.gallery-column {
+  width: 20%;
+  position: relative;
+  overflow: hidden;
+}
+
+.left-gallery .downward-animation,
+.right-gallery .upward-animation {
+  top: 0;
+  left: 16px;
+  right: 16px;
+}
+
+.left-gallery .downward-animation {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  animation: downward-scroll 30s linear infinite;
+}
+
+.right-gallery .upward-animation {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  animation: upward-scroll 30s linear infinite;
+}
+
+.gallery-image-frame {
+  width: 247px;
+  height: 354px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+}
+
+.gallery-image-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.central-content-area {
+  width: 50%;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+}
+
+.content-wrapper {
+  max-width: 100%;
+  width: 100%;
+}
+
+.hero-text-section {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.primary-heading {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #000;
+  line-height: 100%;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #1173b3 0%, #0cb9b3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.hero-description {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  color: #707070;
+  font-weight: 400;
+}
+
+.search-form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.search-input-container {
+  position: relative;
+}
+
+.search-field-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9ca3af;
+  z-index: 1;
+}
+
+.search-form-field {
+  width: 100%;
+  padding: 12px 12px 12px 44px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+.search-form-field:focus {
+  outline: none;
+  border-color: #14b8a6;
+  box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.1);
+}
+
+.search-submit-button {
+  width: 100%;
+  background-color: #14b8a6;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.search-submit-button:hover {
+  background-color: #0d9488;
+}
+
+/* Mobile Styles */
+.mobile-experience {
+  display: none;
+  padding: 10px;
+}
+
+.mobile-content-wrapper {
+  max-width: 384px;
+  margin: 0 auto;
+}
+
+.mobile-hero-section {
+  justify-content: left;
+  margin-bottom: 32px;
+  padding-top: 32px;
+}
+
+.mobile-primary-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: #111827;
+  margin: 8px 0;
+  line-height: 1.3;
+}
+
+.mobile-gradient-text {
+  font-size: 1.75rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #1173b3 0%, #0cb9b3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  margin: 8px 0;
+  line-height: 1.3;
+}
+
+.mobile-hero-description {
+  color: #6b7280;
+  font-size: 14px;
+  margin-top: 16px;
+  line-height: 1.4;
+}
+
+.mobile-search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 16px 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  width: 1080px;
+  max-width: 88%;
+  margin-bottom: 20px;
+  margin-right: 2%;
+}
+
+.mobile-search-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 20px;
+  background: linear-gradient(to right, #4683d0, #7cd0a2);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  width: 105%;
+  height: 60px;
+}
+
+.mobile-image-gallery {
+  position: relative;
+  overflow: hidden;
+  height: 194px;
+  border-radius: 10px;
+}
+
+.horizontal-scroll-animation {
+  display: flex;
+  gap: 16px;
+  position: absolute;
+  animation: horizontal-scroll 25s linear infinite;
+}
+
+.mobile-gallery-frame {
+  flex: 0 0 auto;
+  width: 136px;
+  height: 194px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-right: 10px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-gallery-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.mobile-input-container {
+  position: relative;
+  width: 100%;
+}
+
+.mobile-input-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9ca3af;
+  z-index: 1;
+}
+
+.mobile-form-field {
+  width: 100%;
+  padding: 12px 12px 12px 44px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.2s ease;
+  box-sizing: border-box;
+}
+
+.mobile-form-field:focus {
+  outline: none;
+  border-color: #14b8a6;
+  box-shadow: 0 0 0 3px rgba(20, 184, 166, 0.1);
+}
+
+/* Fixed Infinite Scroll Animations */
+@keyframes downward-scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-33.333%);
+  }
+}
+
+@keyframes upward-scroll {
+  0% {
+    transform: translateY(-33.333%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes horizontal-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.333%);
+  }
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+  .desktop-experience {
+    display: none;
+  }
+
+  .mobile-experience {
+    display: block;
+  }
+}
+
+@media (min-width: 769px) {
+  .desktop-experience {
+    display: block;
+  }
+
+  .mobile-experience {
+    display: none;
+  }
+}
+
+/* Tablet adjustments */
+@media (max-width: 1200px) and (min-width: 769px) {
+  .central-content-area {
+    padding: 24px;
+  }
+
+  .primary-heading,
+  .gradient-text {
+    font-size: 28px;
+  }
+
+  .content-wrapper {
+    max-width: 350px;
+  }
+
+  .gallery-image-frame {
+    width: 150px;
+    height: 200px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+  }
+}
