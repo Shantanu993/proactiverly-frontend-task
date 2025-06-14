@@ -1,0 +1,383 @@
+.lifestyle-pillars-section {
+  padding: 60px 20px;
+  background-image: url("/assets/images/mainpage/main-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  max-width: 1500px;
+  margin: 0px auto;
+}
+
+.pillars-section-container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.section-header-with-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 20px;
+}
+
+.section-header-content {
+  text-align: left;
+  flex: 1;
+}
+
+.navigation-button-group {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.section-category-label {
+  font-size: 36px;
+  font-weight: 700;
+  color: #707070;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+  margin: 0;
+}
+
+.section-main-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.lifestyle-medicine-text {
+  background: linear-gradient(to right, #f1ca72, #d96e6c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.pillars-subtitle {
+  color: #707070;
+}
+
+.navigation-control-button {
+  background: #ffffff;
+  border: 2px solid #e5e7eb;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.navigation-control-button:hover {
+  background: #f3f4f6;
+  border-color: #d1d5db;
+}
+
+.navigation-control-button svg {
+  color: #6b7280;
+}
+
+.pillar-tab-navigation {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 46px;
+}
+
+.pillar-tab-button {
+  padding: 8px 16px;
+  border: 2px solid #e5e7eb;
+  background: white;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #6b7280;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.pillar-tab-button:hover {
+  border-color: #f97316;
+  color: #f97316;
+}
+
+.active-pillar-tab {
+  background: #111827;
+  border-color: #111827;
+  color: white;
+}
+
+.pillar-cards-wrapper {
+  flex: 1;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-top: 46px;
+  width: 100%;
+}
+
+.pillar-cards-container {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 200%;
+}
+
+.lifestyle-pillar-card {
+  flex: 0 0 calc(100% / 3);
+  margin-right: 20px;
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 493px;
+  height: 485px;
+}
+
+.lifestyle-pillar-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.pillar-card-image-section {
+  position: relative;
+  width: 493px;
+  height: 320px;
+  overflow: hidden;
+}
+
+.pillar-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pillar-card-overlay {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+}
+
+.pillar-metric-badge {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 24px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #374151;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pillar-unit-icon {
+  width: 25px;
+  height: 23px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.pillar-metric-text {
+  font-size: 14px;
+  color: #374151;
+}
+
+.metric-value-text {
+  font-weight: 700;
+  color: #111827;
+}
+
+.metric-unit-text {
+  color: #707070;
+}
+
+.pillar-card-content-section {
+  padding: 24px;
+  height: calc(485px - 320px - 48px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.pillar-card-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #111827;
+  margin: 0 0 12px 0;
+  line-height: 1.3;
+}
+
+.pillar-card-description {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #6b7280;
+  margin: 0;
+}
+
+.mobile-pagination-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.pagination-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: none;
+  background: #e5e7eb;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.active-pagination-dot {
+  background: #111827;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .lifestyle-pillars-section {
+    padding: 40px 16px;
+  }
+
+  .section-category-label {
+    font-size: 24px;
+  }
+
+  .section-main-title {
+    font-size: 28px;
+  }
+
+  .section-header-with-navigation {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .navigation-button-group {
+    align-self: flex-end;
+    display: none;
+  }
+
+  .pillar-cards-container {
+    width: 600%;
+    gap: 10px;
+  }
+
+  .lifestyle-pillar-card {
+    flex: 0 0 282px;
+    margin-right: 10px;
+    width: 282px;
+    height: 418px;
+    min-height: 418px;
+  }
+
+  .pillar-card-image-section {
+    width: 100%;
+    height: 240px;
+  }
+
+  .pillar-card-overlay {
+    bottom: 12px;
+    left: 12px;
+  }
+
+  .pillar-cards-wrapper {
+    width: 100%;
+  }
+
+  .pillar-tab-navigation {
+    gap: 6px;
+    display: none;
+  }
+
+  .pillar-tab-button {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .pillar-card-content-section {
+    padding: 20px;
+    height: calc(418px - 240px - 40px);
+  }
+
+  .pillar-card-title {
+    font-size: 18px;
+  }
+
+  .pillar-card-description {
+    font-size: 14px;
+  }
+
+  .pillar-metric-badge {
+    padding: 6px 12px;
+  }
+
+  .pillar-unit-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .pillar-metric-text {
+    font-size: 13px;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .lifestyle-pillar-card {
+    flex: 0 0 calc(50% - 10px);
+  }
+
+  .pillar-cards-container {
+    width: 300%;
+  }
+}
+
+@media (max-width: 640px) {
+  .section-main-title {
+    font-size: 24px;
+  }
+
+  .lifestyle-pillar-card {
+    min-height: 350px;
+  }
+
+  .pillar-card-image-section {
+    height: 200px;
+  }
+
+  .pillar-card-overlay {
+    bottom: 8px;
+    left: 8px;
+  }
+
+  .pillar-card-content-section {
+    padding: 16px;
+  }
+
+  .pillar-tab-navigation {
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding: 0 4px;
+    display: none;
+  }
+
+  .pillar-tab-button {
+    flex-shrink: 0;
+  }
+
+  .navigation-button-group {
+    display: none;
+  }
+}
