@@ -1,12 +1,146 @@
-# React + Vite
+# 🏥 Healthcare Platform - Frontend Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📋 Overview
 
-Currently, two official plugins are available:
+This project demonstrates advanced web development proficiency by implementing a fully responsive **Healthcare Platform** using modern React, custom CSS, and smooth animations—all built without external CSS libraries.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🎯 Task Highlights
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✅ Technology Stack
+
+- **React 19.1.0** – Modern features and hooks
+- **Vanilla CSS** – Fully customized styling
+- **Vite** – Lightning-fast build tool
+- **Responsive Design** – Mobile-first, cross-device compatibility
+
+### ✅ Design Implementation
+
+- 🎯 Pixel-perfect recreation of the provided design
+- 💻 Desktop and 📱 mobile views fully responsive
+- 🎨 Professional, healthcare-appropriate styling
+- ⚡ Interactive and animated user interface
+
+---
+
+## 🖼️ Screenshots
+
+![Desktop View](./public/screenshots/deskPic1.png)
+
+![Mobile View](./public/screenshots/deskPic2.png)
+
+![Infinite Gallery](./public/screenshots/mobPic1.png)
+
+![Infinite Gallery](./public/screenshots/mobPic2.png)
+
+![Infinite Gallery](./public/screenshots/mobPic3.png)
+
+---
+
+## 🚀 Getting Started
+
+### 📦 Prerequisites
+
+- Node.js (v18+)
+- npm or yarn
+
+### 🔧 Installation
+
+```bash
+git clone https://github.com/Shantanu993/proactiverly-frontend-task
+cd proactiverly-frontend-task
+npm install
+npm run dev
+```
+
+Open in your browser: `http://localhost:5173`
+
+---
+
+### 🏗️ Build for Production
+
+```bash
+npm run build        # Create production build
+npm run preview      # Preview production build
+```
+
+---
+
+## 📁 Project Structure
+
+### Folder Summary
+
+| Directory         | Purpose                            |
+| ----------------- | ---------------------------------- |
+| `src/components/` | Reusable UI components             |
+| `src/Pages/`      | Page-level views (Home, Main)      |
+| `src/assets/`     | Image assets structured by purpose |
+| `src/styles/`     | Global styling and theme           |
+| `public/`         | Static files                       |
+
+## 🎭 Animation System
+
+- 🔁 **Infinite Scroll Galleries** – Looping image scroll
+- 🖱️ **Hover Effects** – Interactive feedback
+- 📱 **Touch Gestures** – Swipeable carousels
+- 🧲 **Smooth Transitions** – Transform-based
+
+---
+
+## 📱 Responsive Design
+
+| Device Type | Breakpoints      | Features                             |
+| ----------- | ---------------- | ------------------------------------ |
+| Mobile      | `< 768px`        | Touch-friendly UI, collapsible menus |
+| Tablet      | `768px - 1024px` | Hybrid layout experience             |
+| Desktop     | `> 1024px`       | Full layout, hover interactions      |
+
+---
+
+## ✨ Key Features
+
+### 🧭 Navigation
+
+- Responsive header
+- Hamburger menu on mobile
+- Authentication dropdown (UI level)
+
+### 🧱 Healthcare Content
+
+- Six **pillars of lifestyle medicine**
+- Tabbed, interactive carousel with icons & badges
+
+---
+
+## 📝 Code Quality
+
+- 📚 **Clean Code**: Well-documented, readable
+- 🧩 **Modular Architecture**: Reusable components
+- 🎨 **CSS**: Organized, scalable, and minimal
+
+---
+
+## ✅ Completion Summary
+
+| Requirement                   | Status |
+| ----------------------------- | ------ |
+| React Implementation          | ✅     |
+| No External CSS Libraries     | ✅     |
+| Responsive Design             | ✅     |
+| Complex Animations (CSS only) | ✅     |
+| Pixel-Perfect Design Fidelity | ✅     |
+| Code Quality Standards Met    | ✅     |
+| Accessibility Support         | ✅     |
+| Performance Optimization      | ✅     |
+
+## 🎉 Conclusion
+
+This project reflects:
+
+- 🚀 **Modern Development**: React, Vite, vanilla CSS
+- 🎯 **Design Precision**: Pixel-perfect UI
+- 🧠 **User Experience**: Responsive, interactive, accessible
+- 🔧 **Optimized Code**: High-performance and clean architecture
+
+> **Built with precision, passion, and attention to detail.** ✨
